@@ -420,13 +420,13 @@ button{
         font-size: 59px;
     }
     .civil{
-        font-size: small;
+        font-size: xx-small;
     }
     .xp{
-        font-size: small;
+        font-size: xx-small;
     }
     #txt{
-        font-size: small;
+        font-size: xx-small;
     }
     .logo2{
         height: 50%;
@@ -438,7 +438,7 @@ button{
     }
     .logo4{
         height: 50%;
-        width: 50%;
+        width: 50%; 
     }
     .about{
         font-size: x-large;
@@ -461,8 +461,11 @@ button{
     margin-bottom: 30px;
    }
    .logosk{
-    height: 53px;
-    width: 60px;
+    height: 40px;
+    width: 50px;
+   }
+   .textedepres{
+    font-size: x-small;
    }
    
 }
