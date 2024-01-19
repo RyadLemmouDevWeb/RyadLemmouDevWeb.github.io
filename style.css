@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media0.giphy.com/media/YrIq06kG5yrtxQEhj3/giphy.gif?cid=ecf05e47jjvafzwbpqyztz520ghr39xjx3ddbc597afbq6sw&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: 100% 100%;
+}
+.dark-mode #page1{
+    background-image:url("https://media1.giphy.com/media/Xl0oVz3eb9mfu/giphy.gif?cid=ecf05e479ccxcvkmu2jtwbu4uz7k8oijsguhb7azdgldwrd6&ep=v1_gifs_search&rid=giphy.gif&ct=g") ;
+    background-size: 100% 100%;
+    
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+}
+.navenfant{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger{
+    display: none;
+}
+.bar,
+.fa-times {
+  width: 1.5rem;
+  height: 3px;
+  display: block;
+  color: #fff;
+  padding: 0;
+  margin: 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+.bar:nth-child(1) {
+  width: 100%;
+}
+
+.bar:nth-child(2) {
+  width: 200%;
+}
+
+.bar:nth-child(3) {
+  width: 300%;
+}
+
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.logo1{
+    background-image: url("./img/logo-removebg-preview.png");
+    background-size: contain;
+}
+
+#menu{
+    font-size: large;
+    color: #FEFEFE;
+    font-family: 'Akronim', system-ui;
+    text-decoration: none;
+    font-size: x-large;
+}
+.dark-mode #menu{
+    color: #130E0A;
+}
+
+.middle{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#carre{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.pres{
+    color: #FEFEFE;
+    font-family: 'Akronim', system-ui;;
+    font-size:100px;
+}
+.dark-mode .pres{
+    color: #130E0A;
+}
+
+.contactbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+
+}
+.logo2{
+    height: 100%;
+    width: 100%;
+}
+
+.logo3{
+    height: 100%;
+    width: 100%;
+}
+
+.logo4{
+    height: 100%;
+    width: 100%;
+}
+
+.logo6{
+    height: 100%;
+    width: 100%;
+}
+
+.copyright{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE;
+
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media1.giphy.com/media/CD8CmiZJ9mOW80DFjE/giphy.gif?cid=ecf05e471sot10hrxc3u29bjw58syuixr27oyvh4l20c0xy0&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: 100% 100%;
+}
+.dark-mode #page2{
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjhmcThodDlsaWRpMmo0dnZoZTcxaDR2Njl1Z28ybGc2Z3JsMWpxdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/twQN0OB84MFP2/giphy.gif");
+    background-size: 100% 100%;
+}
+
+.info{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#perso{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    margin-left: auto; 
+}
+
+.perso1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;;
+}
+
+.RyadLemmou{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE;
+} 
+.dark-mode .RyadLemmou{
+    color: #130E0A;
+}
+
+.civil{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE;
+    font-weight: bold; 
+}
+.dark-mode .civil{
+    color: #130E0A;
+    font-weight: bold;
+}
+
+.textedepres{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE;
+    font-weight: bold;
+}
+.dark-mode .textedepres{
+    color: #130E0A;
+    font-weight: bold;
+}
+
+.about{
+    font-family: 'Akronim', system-ui;
+    color: #FEFEFE;
+}
+.dark-mode .about{
+    color: #130E0A;
+}
+
+.perso3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.experience{
+    font-family: 'Akronim', system-ui;
+    color: #FEFEFE;
+    text-align: center;
+}
+.dark-mode .experience{
+    color: #130E0A;
+}
+
+.xp{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE; 
+    text-align: center; 
+    font-weight: bold;
+}
+.dark-mode .xp{
+    color: #130E0A;
+    font-weight: bold;
+}
+
+.perso2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sk{
+    font-family: 'Akronim', system-ui;
+    color: #FEFEFE;
+    text-align: center;  
+}
+.dark-mode .sk{
+    color: #130E0A;
+}
+
+#skills{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+       
+.logosk{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-image: url("./img/promotion-number-5-percent-3d-png-removebg-preview.png");
+    background-size: contain;
+}
+
+#txt{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE;  
+    font-weight: bold;
+}
+.dark-mode #txt{
+    color: #130E0A;
+    font-weight: bold;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHU1emQzY3I3eWYycW5qMnR3MXA3d2Vrb2JwZGg4amVkazhtODd1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wpy9lrAfHCLp4mIT9L/giphy.gif");
+    background-size: 100% 100%;
+}
+.dark-mode #page3{
+    background-image: url("https://media2.giphy.com/media/ukto3TrQS9hIDoDFHF/giphy.gif?cid=ecf05e475a95ra42k1efuu18boyz9fbd45wi2yqrdp7d0l42&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: 100% 100%;
+}
+
+.navproject{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet{
+    font-family: 'Akronim', system-ui;
+    color: #FEFEFE;   
+}
+.dark-mode .projet{
+    color: #130E0A;
+}
+
+.og{
+    height: 90%;
+    width: 100%;
+}
+
+.navog{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.encours{
+    font-family: 'Akronim', system-ui;
+    color: #FEFEFE;
+}
+.dark-mode .encours{
+    color: #130E0A;
+}
+
+.carreog{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carreproject{
+    height: 70%;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#cp1{
+    background-image: url("./img/code-1076536_1280.jpg");
+    background-size: 100% 100%;
+}
+
+#cp2{
+    background-image: url("./img/code-2434271_1280.jpg");
+    background-size: 100% 100%;
+}
+
+#cp3{
+    background-image: url("./img/coding-1841550_1280.jpg");
+    background-size: 100% 100%;
+}
+
+#cp4{
+    background-image: url("./img/computer-1873831_1280.png");
+    background-size: 100% 100%;
+}
+
+#cp5{
+    background-image: url("./img/programming-1873854_1280.png");
+    background-size: 100% 100%;
+}
+
+#cp6{
+    background-image: url("./img/code-3477973_1280.jpg");
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:767px){
+    .navbar{
+        justify-content: space-around;
+    }
+    .hamburger{
+        display: block;
+    }
+    .navenfant{
+        width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      right: -100%;
+      transition: 0.5s;
+      padding-top: 300px;
+      background-color: purple;
+    }
+    .active .bar:nth-child(2) {
+        opacity: 0;
+      }
+      .active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(-315deg);
+        transform: translateY(8px) rotate(-315deg);
+        width: 300%;
+      }
+      .active .bar:nth-child(3) {
+        -webkit-transform: translateY(-10px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
+        width: 300%;
+    }
+    .active {
+        right: 0;
+        z-index: 100;
+        transition: 0.2s ease;
+      }
+    .pres {
+        font-size: 59px;
+    }
+    .civil{
+        font-size: small;
+    }
+    .xp{
+        font-size: small;
+    }
+    #txt{
+        font-size: small;
+    }
+    .logo2{
+        height: 50%;
+        width: 50%;
+    }
+    .logo3{
+        height: 50%;
+        width: 50%;
+    }
+    .logo4{
+        height: 50%;
+        width: 50%;
+    }
+    .about{
+        font-size: x-large;
+    }
+    .sk{
+        font-size: x-large; 
+    }
+    .experience{
+        font-size: x-large;
+    }
+    .carreproject{
+        height: 100%;
+        width: 30%;
+    }
+   .carreog{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+   }
+   .logosk{
+    height: 53px;
+    width: 60px;
+   }
+   
+}
+
