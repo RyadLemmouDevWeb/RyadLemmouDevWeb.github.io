@@ -282,14 +282,72 @@ button{
     color: #130E0A;
     font-weight: bold;
 }
-
 #page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjNuczFvdnQ5ZGNjOGppbm9pNGhhbmZ5bHY2eDVqamd0MnB5ZTFtciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LqrhayK81RcWea3V4N/giphy.gif");
+    background-size: 100% 100%;
+}
+.dark-mode #page3{
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3huYTUxNTFpZHljb2JlcW9iM2g0cWs2eWk5bDRybnEwNjR5cWN4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bck6vsenSHPTW/giphy.gif");
+    background-size: 100% 100%;
+}
+
+#passion-hobby{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.ph{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ph-title{
+    color: #FEFEFE;
+    font-family: 'Akronim', system-ui;
+    text-align: center;
+}
+.dark-mode .ph-title{
+    color: #130E0A;
+}
+.li-manga{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE; 
+    text-align: center; 
+    font-weight: bold;
+} 
+.dark-mode .li-manga{
+    color: #130E0A;
+}
+.li-it{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE; 
+    text-align: center; 
+    font-weight: bold;
+}  
+.dark-mode .li-it{
+    color: #130E0A;
+} 
+.li-boxe{
+    font-family: 'Inter', sans-serif;
+    color: #FEFEFE; 
+    text-align: center; 
+    font-weight: bold;
+}
+.dark-mode .li-boxe{
+    color: #130E0A; 
+}
+#page4{
     height: 100vh;
     width: 100vw;
     background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHU1emQzY3I3eWYycW5qMnR3MXA3d2Vrb2JwZGg4amVkazhtODd1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wpy9lrAfHCLp4mIT9L/giphy.gif");
     background-size: 100% 100%;
 }
-.dark-mode #page3{
+.dark-mode #page4{
     background-image: url("https://media2.giphy.com/media/ukto3TrQS9hIDoDFHF/giphy.gif?cid=ecf05e475a95ra42k1efuu18boyz9fbd45wi2yqrdp7d0l42&ep=v1_gifs_search&rid=giphy.gif&ct=g");
     background-size: 100% 100%;
 }
@@ -466,6 +524,18 @@ button{
    }
    .textedepres{
     font-size: x-small;
+   }
+   .ph-title{
+    font-size: x-large;
+   }
+   .li-manga{
+    font-size: xx-small;
+   }
+   .li-it{
+    font-size: xx-small;
+   }
+   .li-boxe{
+    font-size: xx-small;
    }
    
 }
